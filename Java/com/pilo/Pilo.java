@@ -12,7 +12,7 @@ public class Pilo {
     public static boolean hadError = false;
     public static void main(String[] args) throws IOException {
         if (args.length > 1) {
-            System.out.println("Pilo language: ");
+            System.out.println("Pilo Engine: ");
             System.exit(64);
         } else if (args.length == 1) {
             runFile(args[0]);
@@ -51,11 +51,6 @@ public class Pilo {
         }
 
     private static void run(String source) {
-        //Scanner scanner = new Scanner(source);
-        //List<Token> tokens = scanner.scanTokens();
-        // For now, just print the tokens.
-        /*for (Token token : tokens) {
-            System.out.println(token);
-        }*/
+        // TODO: Run logic
     }
 }
